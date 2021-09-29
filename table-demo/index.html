@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>on the page title</title>
+    <meta name="author" content="Jean Joly">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1>Table Demo</h1>
+    <p>A table is a way of creating a structured grid display of data. the tags we will be interested in are:</p>
+    <ul>
+        <li>&lt;table&gt; : Identifies the table</li>
+        <li>&lt;thead&gt; : Identifies the header row of the table</li>
+        <li>&lt;th&gt; : Identifies the text in the head of the column</li>
+        <li>&lt;tbody&gt; : Identifies the body of the table (detail rows)</li>
+        <li>&lt;tr&gt; : Identifies the start of a body row</li>
+        <li>&lt;td&gt; Identifies a data cell on the body row</li>
+        <li>&lt;tfoot&gt; : Identifies the footer row of the table</li>
+    </ul>
+    <p>
+        all tags are paired tags
+        The border parameter on the table tag will allow you to specify a border around your
+        table. the colspan and rowspan parameter are use on the &lt;td tab to allow you to merger columns on a single
+        row
+        and colums cells across rows.
+    </p>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th></th>
+                <th>Course#</th>
+                <th>Name</th>
+                <th>Hours</th>
+                <th>Pass Criteria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="img/upload.png" alt="upload"></td>
+                <td>DMIT 1010</td>
+                <td>uploading class</td>
+                <td>10</td>
+                <td>%50</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td><img src="img/money.png" alt="money"></td>
+                <td>DMIT 1019</td>
+                <td>money class</td>
+                <td>15</td>
+                <td>%60</td>
+            </tr>
+        </tfoot>
+        </tbody>
+
+
+    </table>
+</body>
+
+</html>
